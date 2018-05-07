@@ -12,13 +12,13 @@ $(document).ready(function () {
 
     });
 
-    $("input").focus(() => {
+    $("input").focus(function()  {
         
         $(this).addClass("add-border")
 
     });
 
-     $("input").focusout(() => {
+     $("input").focusout(function() {
 
         $(this).removeClass("add-border")
 
