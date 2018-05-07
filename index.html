@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Navbar</title>
+    <meta name="description" content="This is a bootstrap like Navbar" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="portfolio-icon.jpg" alt="portfolio icon">
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="label-toggle"></label>
+        <ul class="header-left">
+
+            <li>
+                <a class="active" href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#">Link</a>
+            </li>
+            <li class="main-drop">  
+                <a href="#" class="droplink">Dropdown
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown">
+                    <a href="#">Home</a>
+                    <a href="#">Link</a>
+                    <a href="#">Dropdown</a>
+                </div>
+            </li>
+
+            <li>
+                <a class="Disabled">Disabled</a>
+            </li>
+
+        </ul>
+        <div class="search-box">
+            <form class="search-form">
+              <input  type="text" placeholder="Search.." name="search">
+              <button class="btn_success" >Search</button>
+            </form>
+          </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="jquery.js"></script>
+</body>
+
+</html>
